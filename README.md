@@ -15,10 +15,6 @@ https://github.com/user-attachments/assets/bb793892-e42d-4041-8466-c73a617ac297
 ```cpp
 void adjustBrightness(double position, double middle, int pinNo) {
   double diff = abs(position - middle);
-  double brightness = (1.0 - (diff / half)) * 255.0;
-
-  if (brightness < 0) brightness = 0;
-  if (brightness > 255) brightness = 255;
-
-  analogWrite(pinNo, (int)brightness);
+  double brightness = (1.0 - (diff / half)) * maxScale;
+  analogWrite(pinNo, brightness);
 }
