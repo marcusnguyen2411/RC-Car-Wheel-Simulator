@@ -6,7 +6,9 @@ An Arduino Mega project of mine that maps analog potentiometer input to a 5-LED 
 
 ## 📹 Project Demonstration
 
-<!-- You will paste your video link here in Step 3 -->
+
+
+
 
 ---
 
