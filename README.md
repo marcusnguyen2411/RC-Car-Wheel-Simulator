@@ -1,6 +1,6 @@
 # 🎛️ Arduino Potentiometer LED Tracker
 
-An Arduino Mega project of mine that maps analog potentiometer input to a 5-LED dynamic display.
+An Arduino-based steering wheel simulator that uses a potentiometer to drive a smooth, 5-LED light bar. As you turn, it dynamically fades the LEDs based on position - a test run for visual steering and turning indicators before applying it to my remote-controlled car project!
 
 ---
 
